@@ -147,9 +147,9 @@ nav a:focus {
 
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
-.container> :first-child {
+.container > :first-child {
   grid-column: 1 / -1;
-  background-image: url(images/header.jpg);
+  background-image: url(/images/header.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -212,11 +212,8 @@ first div in the grid  and place it in the grid. */
 
 /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   text-align: center;
+  margin: auto;
 }
 
 /* Add your media query here */
